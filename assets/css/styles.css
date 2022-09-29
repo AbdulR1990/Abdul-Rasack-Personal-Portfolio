@@ -248,7 +248,7 @@ img {
     bottom: .5rem;
     font-size: 1.5rem;
     cursor: pointer;
-    color: var(--first-color);
+    color: var(--first-color-lighter);
 }
 
 .nav__close:hover{
