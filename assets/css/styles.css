@@ -178,7 +178,7 @@ img {
 
 /*==================== NAV ====================*/
 .nav{
-    max-width: 968px;
+    max-width: 100%;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -434,6 +434,7 @@ img {
 .about__buttons{
   display: flex;
   justify-content: center;
+  padding: 1rem;
 }
 /*==================== SKILLS ====================*/
 .skills__container{
@@ -767,7 +768,7 @@ img {
   transform: translateX(.25rem);
 }
 
-.swiper-button-prev::after,
+/* .swiper-button-prev::after,
 .swiper-button-next::after{
   content: '';
 }
@@ -790,15 +791,11 @@ img {
   bottom: -2.5rem;
 }
 
-.swiper-pagination-bullet-active{
-  background-color: var(--first-color);
-}
-
 .swiper-button-prev,
 .swiper-button-next,
 .swiper-pagination-bullet{
   outline: none;
-}
+} */
 
 /*==================== PROJECT IN MIND ====================*/
 .project{
@@ -827,6 +824,12 @@ img {
 .project__img{
   width: 232px;
   justify-self: center;
+  border-radius: 1.5rem;
+}
+
+.button--white:hover{
+  background-color: var(--first-color-lighter);
+  color: black
 }
 
 /*==================== TESTIMONIAL ====================*/
