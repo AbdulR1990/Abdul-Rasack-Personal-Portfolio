@@ -178,7 +178,7 @@ img {
 
 /*==================== NAV ====================*/
 .nav{
-    max-width: 100%;
+    max-width: 90%;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
