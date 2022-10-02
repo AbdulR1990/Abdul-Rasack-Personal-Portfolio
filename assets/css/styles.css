@@ -57,7 +57,7 @@
 }
 
 /* Font size for large devices */
-@media screen and (min-width: 100%) {
+@media screen and (min-width: 100vw) {
     :root {
         --big-font-size: 3rem;
         --h1-font-size: 2.25rem;
@@ -157,7 +157,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 768px;
+  max-width: 100vw;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -317,10 +317,6 @@ img {
 
 .home__description{
   margin-bottom: var(--mb-2);
-}
-
-.home__scroll{
-  /* display: none; */
 }
 
 .home__scroll-button{
